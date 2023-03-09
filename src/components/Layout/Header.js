@@ -4,12 +4,12 @@ import meals from '../../Assets/meals.jpg';
 import './Header.css'
 import Hearcartbutton from './Hearcartbutton';
 
-const Header = () => {
+const Header = (props) => {
   return (
     <Fragment>
       <header className='header'>
         <h1>ReactMeals</h1>
-        <Hearcartbutton />
+        <Hearcartbutton onClick = {props.onShowCart}/>
       </header>
       <div className='main-image'>
         <img src={meals} alt="mealicon" />

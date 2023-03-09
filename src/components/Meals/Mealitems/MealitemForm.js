@@ -20,4 +20,4 @@ const MealitemForm = (props) => {
   )
 }
 
-export default MealitemForm
+export default MealitemForm;
