@@ -1,12 +1,14 @@
 import Contextdata from './components/Context/Contextdata';
 import Header from './components/Layout/Header'
-import Mealsummery from './components/Meals/Mealsummery';
+import Meals from './components/Meals/Meals';
 
 function App() {
   return (
     <Contextdata.Provider value=''>
       <Header/>
-      <Mealsummery/>
+      <main>
+      <Meals/>
+      </main>
     </Contextdata.Provider>
   );
 }
