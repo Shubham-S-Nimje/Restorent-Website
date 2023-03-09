@@ -39,6 +39,7 @@ const Availablemeals = () => {
     price = {meal.price}/>
     )
   return (
+    <React.Fragment>
     <section>
         <ul className='meals'>
             <Card>
@@ -46,6 +47,7 @@ const Availablemeals = () => {
             </Card>
         </ul>
     </section>
+    </React.Fragment>
   )
 }
 

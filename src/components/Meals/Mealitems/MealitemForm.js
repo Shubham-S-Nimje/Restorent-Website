@@ -2,13 +2,13 @@ import React from 'react'
 import Input from '../../UI/Input'
 import './MealitemForm.css'
 
-const MealitemForm = () => {
+const MealitemForm = (props) => {
   return (
     <form className='form'>
       <Input
       label='Amount'
       input={{
-        id:'Amount',
+        id:'Amount_' + props.id,
         type: 'number',
         min:'1',
         max:'5',
