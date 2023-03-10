@@ -15,7 +15,8 @@ const Mealitem = (props) => {
                 {price}</div>
         </div>
         <div>
-          <MealitemForm/>
+          {/* {console.log(props)} */}
+          <MealitemForm id={props.id} items={props}/>
         </div>
       
     </li>

@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import Cart from './components/Cart/Cart';
-import Contextdata from './components/Context/Contextdata';
 import Header from './components/Layout/Header'
 import Meals from './components/Meals/Meals';
+import CartProvider from './Store/CartProvider';
 
 function App() {
   const [cartIsShown, SetCartIsShown] = useState(false);
@@ -16,13 +16,13 @@ function App() {
   };
 
   return (
-    <Contextdata.Provider value=''>
-      {cartIsShown && <Cart onClose = {hideCartHandler}/>}
-      <Header onShowCart = {showCartHandler}/>
+    <CartProvider>
+      {cartIsShown && <Cart onClose={hideCartHandler} />}
+      <Header onShowCart={showCartHandler} />
       <main>
-      <Meals/>
+        <Meals />
       </main>
-    </Contextdata.Provider>
+    </CartProvider>
   );
 }
 
