@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import './Mealsummery.css'
 
 const Mealsummery = () => {
   return (
+    <Fragment>
     <section className='summary'>
       <h2>Delicious Food, Delivered To You</h2>
       <p>
@@ -14,6 +15,7 @@ const Mealsummery = () => {
         of course by experienced chefs!
       </p>
     </section>
+    </Fragment>
   );
 }
 
