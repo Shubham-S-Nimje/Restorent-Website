@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Restorent-Website/static/css/main.ab7e5456.css",
+    "main.js": "/Restorent-Website/static/js/main.bdae2d5b.js",
+    "static/js/787.7167f5fb.chunk.js": "/Restorent-Website/static/js/787.7167f5fb.chunk.js",
+    "static/media/meals.jpg": "/Restorent-Website/static/media/meals.2971f633fc1382581cbf.jpg",
+    "index.html": "/Restorent-Website/index.html",
+    "main.ab7e5456.css.map": "/Restorent-Website/static/css/main.ab7e5456.css.map",
+    "main.bdae2d5b.js.map": "/Restorent-Website/static/js/main.bdae2d5b.js.map",
+    "787.7167f5fb.chunk.js.map": "/Restorent-Website/static/js/787.7167f5fb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab7e5456.css",
+    "static/js/main.bdae2d5b.js"
+  ]
+}
